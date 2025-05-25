@@ -4,16 +4,17 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-image:url("../../../public/spikes.png");
+    background-image:url("../../../public/WebWake_tiling_background.png");
     background-repeat:repeat;
+    background-size:100px;
 }
 
 .inner-div-form-container {
     background-color: lightblue;
-    padding: 20px;
+    padding: 40px;
     border-radius:15px;
 }
 
-.mac-address-input {
-    border-radius:0px;
+.invalid-input-info {
+    color: red;
 }

@@ -1,14 +1,14 @@
 <div class="outer-div-form-container">
     <div class="inner-div-form-container">
-        <form nz-form>
+        <form nz-form [formGroup]="macAddressFormGroup">
             <nz-form-item>
-                <nz-form-control nzErrorTip="Please input the target MAC-Address!">
+                <nz-form-control class="invalid-input-info" [nzValidateStatus]="status" [nzErrorTip]="statusMessage" [nzSuccessTip]="statusMessage" >
                     <nz-input-group nzPrefixIcon="laptop">
-                        <input formControlName="mac-address" nz-input placeholder="MAC-Address" />
+                        <input id="mac-address-input-field" nz-input placeholder="MAC address" [formControl]="postFormControl" (keyup)="onInputChanged($event)" />
                     </nz-input-group>
                 </nz-form-control>
             </nz-form-item>
         </form>
-        <button nz-button nzType="primary">Send MAC-Address</button>
+        <button nz-button nzType="primary" (click)="onSendButtonPressed()" [nzLoading]="isLoading">Send MAC address</button>
     </div>
 </div>

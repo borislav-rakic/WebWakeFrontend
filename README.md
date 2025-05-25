@@ -60,4 +60,4 @@ For more information on using the Angular CLI, including detailed command refere
 
 ## Authors and Acknowledgement
 
-This frontend application was implemented by Borislav Rakic. I want to thank Omer Ozer for creating the repeating background image and Toptal for hosting it (https://www.toptal.com/designers/subtlepatterns/spikes-pattern/).
+This frontend application was implemented by Borislav Rakic.
