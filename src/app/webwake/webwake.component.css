@@ -1,0 +1,19 @@
+.outer-div-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image:url("../../../public/spikes.png");
+    background-repeat:repeat;
+}
+
+.inner-div-form-container {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius:15px;
+}
+
+.mac-address-input {
+    border-radius:0px;
+}

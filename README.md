@@ -57,3 +57,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Authors and Acknowledgement
+
+This frontend application was implemented by Borislav Rakic. I want to thank Omer Ozer for creating the repeating background image and Toptal for hosting it (https://www.toptal.com/designers/subtlepatterns/spikes-pattern/).
